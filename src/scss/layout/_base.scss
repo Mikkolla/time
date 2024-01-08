@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;
+}
+body {
+	font-family: var(--ff);
+	display: grid;
+	background-color: #695D9A;
+	grid-template-rows: auto 1fr auto;
+}
+.container {
+	
+	max-width: 1170px;
+	margin-inline: auto;
+	
+}
+.main {
+	padding: 20px;
+}

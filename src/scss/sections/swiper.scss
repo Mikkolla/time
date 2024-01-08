@@ -1,0 +1,148 @@
+.owl-carousel{
+    margin-top: 253px;
+    max-width: 1170px;
+    overflow-x: hidden;
+
+    @include tablet{
+        max-width: 900px;
+    }
+    @include tablet-small{
+        max-width: 700px;
+        
+        
+    }
+
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    
+
+   
+    @include mobile{
+        display: flex;
+        
+        justify-content: center;
+       
+       
+        
+        
+
+        
+    }
+    &__start {
+    color: var(--Colors-White, #FFF);
+text-align: center;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.293px;
+
+@include tablet{
+    font-size: 20px;
+
+    
+}
+
+@include mobile{
+    display: none;
+}
+
+}
+
+    &__code {
+        color: var(--Colors-White, #FFF);
+text-align: center;
+
+/* Heading / H1 Hero */
+font-family: DM Sans;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 86px; /* 119.444% */
+letter-spacing: -1px;
+@include tablet{
+    font-size: 37px;
+    
+    line-height: 46px;
+}    
+
+}
+
+    &__desc {
+        color: var(--Colors-White, #FFF);
+        text-align: center;
+        max-width: 736px;
+        /* Heading / H5 Lead */
+        font-family: DM Sans;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; 
+        
+        @include tablet{
+            font-size: 18px;
+           
+        }  
+
+        @include tablet-small{
+            max-width: 500px;
+        }
+
+        @include mobile{
+           
+            max-width: 300px;
+        }
+
+    }
+}
+
+.owl-dots{
+    background-color: none;
+}
+
+.owl-dot{
+   background: none;   
+   
+
+}
+
+.owl-nav{
+    @include mobile{
+        display: none;
+    }
+}
+
+#html .owl-prev{
+    position: absolute;
+    
+    
+    
+    background: inherit;
+    font-size: 60px;
+    left: 0;
+    color: #fff;
+    z-index: 20;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#html .owl-next{
+    position: absolute;
+
+    border-radius: 50%;
+    background: inherit;
+    font-size: 60px;
+    right: 0;
+    color: #fff;
+    z-index: 20;
+    top: 50%;
+    transform: translateY(-50%);
+  
+}
+

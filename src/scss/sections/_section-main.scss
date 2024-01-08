@@ -1,0 +1,57 @@
+.main {
+    position: relative;
+    z-index: 1;
+    height: 120vh;
+    background: #2F1893;
+    overflow: hidden;
+    
+  &__wrapper{
+    position: relative;
+    z-index: 100;
+  }
+
+    &__btn{
+        margin-top: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__link{
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        color: var(--Colors-White, #FFF);
+
+
+
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+border-radius: 100px;
+background: var(--Action-Secondary, #482BE7);
+padding: 17px 35px;
+    }
+    
+}
+
+.background{
+  
+        position: absolute;
+        z-index: -3;
+        object-fit: cover;
+        height: 100%;
+        top: 0;
+       left: 0;
+
+       
+        
+        width: 100%;
+    
+}
+.text {
+
+}

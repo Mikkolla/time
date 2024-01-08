@@ -1,0 +1,95 @@
+.team {
+    background: var(--Background-Dark, #2F1893);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    &__wrapper {
+        @include desktop-small{
+            padding: 20px;
+        }
+    }
+
+    &__text {
+    }
+
+    &__title {
+        color: var(--Colors-White, #FFF);
+
+/* Heading / H3 Title */
+font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+letter-spacing: -0.4px;
+    }
+
+    &__desc {
+        color: var(--Colors-White, #FFF);
+        max-width: 754px;
+/* Heading / H5 Lead */
+font-family: DM Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 145.455% */
+    }
+
+    &__teammate {
+    }
+
+    &__grid {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        @include tablet-small{
+            grid-gap: 30px;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+    }
+
+    &__mate {
+        
+    }
+
+    &__name {
+        margin-top: 17px;
+        margin-bottom: 8px;
+        color: var(--Colors-White, #FFF);
+
+/* Heading / H5 Lead */
+font-family: DM Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 145.455% */
+    }
+
+    &__job {
+        margin-bottom: 20px;
+        color: var(--Colors-White, #FFF);
+
+/* Text / Paragraph */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+    }
+
+    &__apps {
+        margin-bottom: 60px;
+        display: flex;
+        gap: 30px;
+        @include mobile{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+    }
+}
+.container {
+}
+.img {
+}

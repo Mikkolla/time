@@ -1,0 +1,34 @@
+// vendors
+@import 'vendors/reset';
+
+// utils
+@import 'utils/vars';
+@import 'utils/mixins';
+
+// layout
+@import 'layout/base';
+@import 'layout/scroll';
+@import 'layout/grid';
+
+// components
+@import 'components/header';
+@import 'components/footer';
+
+
+@import 'sections/section-work';
+@import 'sections/section-client';
+@import 'sections/section-main';
+@import 'sections/section-create';
+@import 'sections/section-content';
+@import 'sections/swiper';
+@import 'sections/section-price';
+@import 'sections/section-team';
+@import 'sections/section-contacts';
+
+
+
+@import 'slider/owl.carousel';
+@import 'slider/owl.theme.default';
+
+// need to remove
+
